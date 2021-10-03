@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index site</title>
+</head>
+<body>
+<h1>Welcome to the text Analyzer</h1>
+<h3>Enter your text below</h3>
+<form action="\analyze" method="get">
+    <textarea name ='text' style='margin: 0px; width:75%; height:200px;'></textarea><br>
+    <input type="checkbox" name="rmpunc"> Remove Punctuation<br>
+    <input type="checkbox" name="fullcap"> Upper Case<br>
+    <input type="checkbox" name="newlinerm"> New Line Remover<br>
+    <input type="checkbox" name="extraspc"> Extra Space Remove<br>
+    <input type="checkbox" name="charcount"> Character Counter<br>
+    <button type='submit'>Analyze Text</button>
+</form>
+<h2>{{ name }} has a FB account which password is  {{ password }}</h2>
+{{ name }} {{ password }}
+</body>
+</html>
